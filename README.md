@@ -1,8 +1,8 @@
-# Practical Labs — Docker
+# The Python Vault — Docker
 
-Serves the whole labs hub (`index.html` + all 16 `challenge_XX_*` folders) as
-a static site behind nginx on port 80. No backend is needed — each lab runs
-its Python in the browser via [Pyodide](https://pyodide.org).
+Serves the whole Python Vault hub (`index.html` + all 16 `challenge_XX_*`
+rooms) as a static site behind nginx on port 80. No backend is needed — each
+room runs its Python in the browser via [Pyodide](https://pyodide.org).
 
 Answer keys (`task.txt`) stay out of the image entirely — see `.dockerignore`.
 
