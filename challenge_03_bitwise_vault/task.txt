@@ -1,0 +1,33 @@
+==============================================================================
+LAB 03 - BITWISE VAULT
+Module: Operators
+==============================================================================
+
+Difficulty : Beginner        Points: 20
+
+NOTE: This file is the INSTRUCTOR ANSWER KEY - it contains the flag.
+      Avoid handing it to players before they solve the lab.
+
+------------------------------------------------------------------------------
+Scenario
+------------------------------------------------------------------------------
+A byte list was XOR-encoded with a key. Decode it to recover the flag.
+
+------------------------------------------------------------------------------
+Task 1 - Decode
+------------------------------------------------------------------------------
+Points   : 20
+
+Objective:
+  Decode 'encoded' by XOR-ing each byte with 'key' and converting the
+  results back into characters.
+
+Question:
+  Submit the flag the decoded bytes spell out.
+
+Hint:
+  XOR is its own inverse: (x ^ key) ^ key == x. Use chr()/ord().
+
+>> ANSWER: FLAG{xor_master}
+
+==============================================================================

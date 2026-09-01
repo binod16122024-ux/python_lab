@@ -1,0 +1,51 @@
+==============================================================================
+LAB 12 - SILENT CATCH
+Module: Exception Handling
+==============================================================================
+
+Difficulty : Beginner        Points: 20
+
+NOTE: This file is the INSTRUCTOR ANSWER KEY - it contains the flag.
+      Avoid handing it to players before they solve the lab.
+
+------------------------------------------------------------------------------
+Scenario
+------------------------------------------------------------------------------
+A bare except is hiding the real error, and the flag never prints.
+
+------------------------------------------------------------------------------
+Task 1 - Recon
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  Run starter.py exactly as given, without changing anything.
+
+Question:
+  What is the name of the error Python raises at the very bottom of the
+  output?
+
+Hint:
+  The bare except swallows the real error, so 'result' never gets
+  assigned - what happens when print(result) runs next?
+
+>> ANSWER: NameError
+
+------------------------------------------------------------------------------
+Task 2 - Debug
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  A bare except is swallowing the real error. Find and fix the
+  underlying off-by-one bug.
+
+Question:
+  Submit the flag once the script prints it cleanly.
+
+Hint:
+  range(len(parts) + 1) walks one index too far.
+
+>> ANSWER: FLAG{silent_catch}
+
+==============================================================================

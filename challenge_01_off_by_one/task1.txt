@@ -1,0 +1,5 @@
+Task 1 — Recon
+10 pts
+Run starter.py exactly as given, without changing anything. Python refuses to execute it and throws an error.
+
+Question: What is the name of the error Python raises?

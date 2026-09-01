@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Practical Labs</title>
+<style>
+:root{--bg:#0f172a;--panel:#111827;--text:#e5e7eb;--muted:#9ca3af;--accent:#22c55e;--code:#1e293b;--border:#1f2937;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Segoe UI,Arial,sans-serif;line-height:1.6;padding:24px;}
+.wrap{max-width:1100px;margin:0 auto;}
+h1{color:var(--accent);}
+p.sub{color:var(--muted);margin-top:-8px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-top:24px;}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:16px 18px;}
+.card h2{margin:0 0 6px 0;font-size:1.02rem;color:#fff;}
+.card .num{color:var(--accent);font-weight:bold;margin-right:6px;}
+.card .tag{display:inline-block;background:var(--code);border:1px solid var(--border);border-radius:4px;padding:1px 8px;font-size:0.76rem;color:var(--muted);margin-right:6px;}
+.card p{color:var(--muted);margin:8px 0 10px 0;font-size:0.88rem;}
+.card a{color:#60a5fa;text-decoration:none;font-size:0.9rem;}
+.card a:hover{text-decoration:underline;}
+.bundle{margin-top:36px;padding-top:20px;border-top:1px solid var(--border);}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>🚩 Practical Labs</h1>
+<p class="sub">Each lab is its own self-contained room: an in-browser Python machine on the left, the task and flag submission on the right.</p>
+<div class="grid">
+
+<div class="card">
+  <h2><span class="num">01</span>Off By One</h2>
+  <span class="tag">Basics &amp; Syntax</span>
+  <p>Fix the IndentationError so the script runs and prints the flag.</p>
+  <a href="challenge_01_off_by_one/challenge.html">Start lab &rarr;</a>
+</div>
+
+<div class="card">
+  <h2><span class="num">02</span>Type Juggling</h2>
+  <span class="tag">Variables & Data Types</span>
+  <p>Fix the TypeError to build the flag from a chain of casts.</p>
+  <a href="challenge_02_type_juggling/challenge.html">Start lab &rarr;</a>
+</div>
+
+<div class="card">
+  <h2><span class="num">03</span>Bitwise Vault</h2>
+  <span class="tag">Operators</span>
+  <p>XOR-decode an encoded byte list to recover the flag.</p>
+  <a href="challenge_03_bitwise_vault/challenge.html">Start lab &rarr;</a>
+</div>
+
+<div class="card">
+  <h2><span class="num">04</span>String Builder</h2>
+  <span class="tag">Strings</span>
+  <p>Pull the flag out of a string where it's interleaved with decoy characters.</p>
+  <a href="challenge_04_string_builder/challenge.html">Start lab &rarr;</a>
+</div>
+
+<div class="card">
+  <h2><span class="num">05</span>Needle in the Haystack</h2>
+  <span class="tag">Lists</span>
+  <p>Pick flag characters out of a list of decoys by index.</p>
+  <a href="challenge_05_needle_haystack/challenge.html">Start lab &rarr;</a>
+</div>
+
+<div class="card">
+  <h2><span class="num">06</span>Locked Coordinates</h2>
+  <span class="tag">Tuples</span>
+  <p>Sort scrambled (position, character) tuples to reveal the flag.</p>
+  <a href="challenge_06_locked_coordinates/challenge.html">Start lab &rarr;</a>
+</div>
+
+<div class="card">
+  <h2><span class="num">07</span>Set Difference</h2>
+  <span class="tag">Sets</span>
+  <p>Subtract a decoy set to find the letters that make the flag.</p>
+  <a href="challenge_07_set_difference/challenge.html">Start lab &rarr;</a>
+</div>
+
+<div class="card">
+  <h2><span class="num">08</span>Frequency Vault</h2>
+  <span class="tag">Dictionaries</span>
+  <p>Tally letter frequencies in a noisy string to find the one that unlocks the flag.</p>
+  <a href="challenge_08_frequency_vault/challenge.html">Start lab &rarr;</a>
+</div>
+
+<div class="card">
+  <h2><span class="num">09</span>Gatekeeper</h2>
+  <span class="tag">Conditionals</span>
+  <p>Find a code that satisfies every if/elif check to unlock the flag.</p>
+  <a href="challenge_09_gatekeeper/challenge.html">Start lab &rarr;</a>
+</div>
+
+<div class="card">
+  <h2><span class="num">10</span>Brute Force Lite</h2>
+  <span class="tag">Loops</span>
+  <p>Fix a loop's range so it sums to the target and prints the flag.</p>
+  <a href="challenge_10_brute_force_lite/challenge.html">Start lab &rarr;</a>
+</div>
+
+<div class="card">
+  <h2><span class="num">11</span>Recursive Lock</h2>
+  <span class="tag">Functions</span>
+  <p>Add the missing base case so the recursion resolves to the flag.</p>
+  <a href="challenge_11_recursive_lock/challenge.html">Start lab &rarr;</a>
+</div>
+
+<div class="card">
+  <h2><span class="num">12</span>Silent Catch</h2>
+  <span class="tag">Exception Handling</span>
+  <p>Stop a bare except from hiding the real bug blocking the flag.</p>
+  <a href="challenge_12_silent_catch/challenge.html">Start lab &rarr;</a>
+</div>
+
+<div class="card">
+  <h2><span class="num">13</span>Read Between the Lines</h2>
+  <span class="tag">File Handling</span>
+  <p>Filter junk lines out of a data file to assemble the flag.</p>
+  <a href="challenge_13_read_between_lines/challenge.html">Start lab &rarr;</a>
+</div>
+
+<div class="card">
+  <h2><span class="num">14</span>Standard Library Hunt</h2>
+  <span class="tag">Modules</span>
+  <p>Base64-decode an encoded string to recover the flag.</p>
+  <a href="challenge_14_stdlib_hunt/challenge.html">Start lab &rarr;</a>
+</div>
+
+<div class="card">
+  <h2><span class="num">15</span>Class Safe</h2>
+  <span class="tag">OOP Basics</span>
+  <p>Complete a class's missing method so it returns the flag.</p>
+  <a href="challenge_15_class_safe/challenge.html">Start lab &rarr;</a>
+</div>
+
+<div class="card">
+  <h2><span class="num">16</span>Filter & Map</h2>
+  <span class="tag">Comprehensions</span>
+  <p>Filter decoy values out of a mixed list to reveal the flag.</p>
+  <a href="challenge_16_filter_map/challenge.html">Start lab &rarr;</a>
+</div>
+
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+# Answer keys - never ship these to players
+**/task.txt
+**/task1.txt
+**/task*.txt
+
+# The separate Docker-based all-in-one lab has its own deployment
+python_fundamentals_lab/

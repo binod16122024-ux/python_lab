@@ -1,0 +1,49 @@
+==============================================================================
+LAB 10 - BRUTE FORCE LITE
+Module: Loops
+==============================================================================
+
+Difficulty : Beginner        Points: 20
+
+NOTE: This file is the INSTRUCTOR ANSWER KEY - it contains the flag.
+      Avoid handing it to players before they solve the lab.
+
+------------------------------------------------------------------------------
+Scenario
+------------------------------------------------------------------------------
+A loop is supposed to sum to a target value but stops one short.
+
+------------------------------------------------------------------------------
+Task 1 - Recon
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  Run starter.py exactly as given, without changing the range.
+
+Question:
+  What sum does the loop print?
+
+Hint:
+  range(1, 10) adds up 1 through 9 - do the arithmetic or just run it.
+
+>> ANSWER: 45
+
+------------------------------------------------------------------------------
+Task 2 - Fix
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  The loop's range doesn't reach target_sum. Fix the range so the sum
+  comes out to exactly 55.
+
+Question:
+  Submit the flag the script prints once the sum is correct.
+
+Hint:
+  range(1, 10) stops at 9. What range sums 1 through 10?
+
+>> ANSWER: FLAG{loop_sum_55}
+
+==============================================================================

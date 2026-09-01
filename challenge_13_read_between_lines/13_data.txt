@@ -1,0 +1,5 @@
+DECOY: this line means nothing
+REAL: FLAG{file_
+DECOY: ignore this too
+REAL: reading}
+DECOY: not part of the flag

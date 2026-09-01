@@ -1,0 +1,34 @@
+==============================================================================
+LAB 16 - FILTER & MAP
+Module: Comprehensions & Functional Tools
+==============================================================================
+
+Difficulty : Beginner        Points: 20
+
+NOTE: This file is the INSTRUCTOR ANSWER KEY - it contains the flag.
+      Avoid handing it to players before they solve the lab.
+
+------------------------------------------------------------------------------
+Scenario
+------------------------------------------------------------------------------
+Flag characters are scattered in a list mixed with int and None decoys.
+
+------------------------------------------------------------------------------
+Task 1 - Filter
+------------------------------------------------------------------------------
+Points   : 20
+
+Objective:
+  'items' mixes strings with None and int decoys. Keep only the
+  strings, in order, and join them.
+
+Question:
+  Submit the flag you reveal.
+
+Hint:
+  [x for x in items if isinstance(x, str)] or filter() with a type
+  check.
+
+>> ANSWER: FLAG{filter_map}
+
+==============================================================================

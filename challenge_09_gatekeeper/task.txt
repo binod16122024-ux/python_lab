@@ -1,0 +1,57 @@
+==============================================================================
+LAB 09 - GATEKEEPER
+Module: Conditional Statements
+==============================================================================
+
+Difficulty : Beginner        Points: 20
+
+NOTE: This file is the INSTRUCTOR ANSWER KEY - it contains the flag.
+      Avoid handing it to players before they solve the lab.
+
+------------------------------------------------------------------------------
+Scenario
+------------------------------------------------------------------------------
+A gate only opens for a code that passes every check in a chain of
+conditions.
+
+------------------------------------------------------------------------------
+Task 1 - Recon
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  Run starter.py exactly as given, with the default code "0000".
+
+Question:
+  What is the exact denial message the script prints?
+
+Hint:
+  Trace "0000" through each elif in order - it passes the first three
+  checks and fails on the fourth.
+
+>> ANSWER: Access denied: first and last digit cannot match
+
+------------------------------------------------------------------------------
+Task 2 - Unlock
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  Edit 'value' to a 4-digit numeric code that passes all six checks:
+  divisible by 7, first and last digits differ, the middle two digits
+  match each other, and the digits sum to 6. Exactly one 4-digit code
+  satisfies every condition - the flag is built from that code, so you
+  can't get it without finding it.
+
+Question:
+  Submit the flag the script prints once your code passes every check.
+
+Hint:
+  Work through the checks in order and narrow the search: it must be a
+  multiple of 7, shaped A-B-B-C (first digit != last digit, middle two
+  digits equal), with all four digits summing to 6. Only one code fits
+  every condition.
+
+>> ANSWER: FLAG{gatekeeper_1113}
+
+==============================================================================

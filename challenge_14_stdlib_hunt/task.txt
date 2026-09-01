@@ -1,0 +1,32 @@
+==============================================================================
+LAB 14 - STANDARD LIBRARY HUNT
+Module: Modules
+==============================================================================
+
+Difficulty : Beginner        Points: 20
+
+NOTE: This file is the INSTRUCTOR ANSWER KEY - it contains the flag.
+      Avoid handing it to players before they solve the lab.
+
+------------------------------------------------------------------------------
+Scenario
+------------------------------------------------------------------------------
+An encoded string needs a standard library module to decode.
+
+------------------------------------------------------------------------------
+Task 1 - Decode
+------------------------------------------------------------------------------
+Points   : 20
+
+Objective:
+  Base64-decode 'encoded' to recover the inner word.
+
+Question:
+  Submit the flag wrapped as FLAG{<word>}.
+
+Hint:
+  base64.b64decode(encoded).decode()
+
+>> ANSWER: FLAG{stdlib_ninja}
+
+==============================================================================

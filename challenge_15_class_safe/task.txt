@@ -1,0 +1,51 @@
+==============================================================================
+LAB 15 - CLASS SAFE
+Module: OOP Basics
+==============================================================================
+
+Difficulty : Beginner        Points: 20
+
+NOTE: This file is the INSTRUCTOR ANSWER KEY - it contains the flag.
+      Avoid handing it to players before they solve the lab.
+
+------------------------------------------------------------------------------
+Scenario
+------------------------------------------------------------------------------
+A Safe class stores the flag as a list of character codes and is missing
+the method that decodes and unlocks it.
+
+------------------------------------------------------------------------------
+Task 1 - Recon
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  Run starter.py exactly as given, without changing anything.
+
+Question:
+  What is the name of the error Python raises?
+
+Hint:
+  The last line of the traceback names the error type.
+
+>> ANSWER: AttributeError
+
+------------------------------------------------------------------------------
+Task 2 - Complete
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  Safe is missing an unlock() method. Add one that turns every number in
+  self._codes back into a character and returns the joined result.
+
+Question:
+  Submit the flag once safe.unlock() runs successfully.
+
+Hint:
+  chr(n) turns a character code back into a character. Join them all
+  together with "".join(...).
+
+>> ANSWER: FLAG{vault_access_granted}
+
+==============================================================================

@@ -1,0 +1,51 @@
+==============================================================================
+LAB 02 - TYPE JUGGLING
+Module: Variables & Data Types
+==============================================================================
+
+Difficulty : Beginner        Points: 20
+
+NOTE: This file is the INSTRUCTOR ANSWER KEY - it contains the flag.
+      Avoid handing it to players before they solve the lab.
+
+------------------------------------------------------------------------------
+Scenario
+------------------------------------------------------------------------------
+A quick cast-and-concatenate script crashes instead of building the flag.
+Fix the type error and recover it.
+
+------------------------------------------------------------------------------
+Task 1 - Recon
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  Run starter.py exactly as given, without changing anything.
+
+Question:
+  What is the name of the error Python raises?
+
+Hint:
+  The last line of the traceback names the error type.
+
+>> ANSWER: TypeError
+
+------------------------------------------------------------------------------
+Task 2 - Exploit
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  The script raises a TypeError trying to concatenate a str and an int.
+  Fix the cast so it runs.
+
+Question:
+  Submit the flag the script prints once it runs successfully.
+
+Hint:
+  "7" + 3 doesn't work - one side needs to change type first, e.g.
+  int(count).
+
+>> ANSWER: FLAG{type_round_10}
+
+==============================================================================

@@ -1,0 +1,33 @@
+==============================================================================
+LAB 05 - NEEDLE IN THE HAYSTACK
+Module: Lists
+==============================================================================
+
+Difficulty : Beginner        Points: 20
+
+NOTE: This file is the INSTRUCTOR ANSWER KEY - it contains the flag.
+      Avoid handing it to players before they solve the lab.
+
+------------------------------------------------------------------------------
+Scenario
+------------------------------------------------------------------------------
+Flag characters are hidden among decoys in a list at specific positions.
+
+------------------------------------------------------------------------------
+Task 1 - Extract
+------------------------------------------------------------------------------
+Points   : 20
+
+Objective:
+  Pick out haystack[i] for every i in 'indices', in order, and join
+  them into a single word.
+
+Question:
+  Submit the word wrapped as FLAG{<word>}.
+
+Hint:
+  A list comprehension or a simple for-loop both work here.
+
+>> ANSWER: FLAG{needle_found}
+
+==============================================================================

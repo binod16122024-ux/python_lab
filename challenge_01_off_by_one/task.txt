@@ -1,0 +1,54 @@
+==============================================================================
+LAB 01 - OFF BY ONE
+Module: Python Basics & Syntax
+==============================================================================
+
+Difficulty : Beginner        Points: 20
+
+NOTE: This file is the INSTRUCTOR ANSWER KEY - it contains the flag.
+      Avoid handing it to players before they solve the lab.
+
+------------------------------------------------------------------------------
+Scenario
+------------------------------------------------------------------------------
+A teammate's script won't run and they can't figure out why. Investigate,
+fix it, and recover the flag.
+
+------------------------------------------------------------------------------
+Task 1 - Recon
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  Run starter.py exactly as given, without changing anything. Python
+  refuses to execute it and throws an error.
+
+Question:
+  What is the name of the error Python raises?
+
+Hint:
+  Whatever the terminal prints on the last line, right before the
+  traceback ends, names the error type.
+
+>> ANSWER: IndentationError
+
+------------------------------------------------------------------------------
+Task 2 - Exploit
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  Fix the script in the editor so it actually runs. You only need to
+  fix how the code is laid out - the logic is already correct.
+
+Question:
+  Submit the flag the script prints once it runs successfully.
+
+Hint:
+  Every line inside def reveal_flag(): must be indented the same
+  amount - 4 spaces is the Python convention. Two lines currently sit
+  at column 0 and need to move in.
+
+>> ANSWER: FLAG{syntax_is_king}
+
+==============================================================================

@@ -1,0 +1,50 @@
+==============================================================================
+LAB 13 - READ BETWEEN THE LINES
+Module: File Handling
+==============================================================================
+
+Difficulty : Beginner        Points: 20
+
+NOTE: This file is the INSTRUCTOR ANSWER KEY - it contains the flag.
+      Avoid handing it to players before they solve the lab.
+
+------------------------------------------------------------------------------
+Scenario
+------------------------------------------------------------------------------
+The flag is split across lines in a data file, mixed in with junk lines.
+
+------------------------------------------------------------------------------
+Task 1 - Recon
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  Open 13_data.txt and look at it before writing any filtering code.
+
+Question:
+  How many lines in 13_data.txt start with "REAL: "?
+
+Hint:
+  Count them by eye in the file, or run a quick filter and print its
+  length.
+
+>> ANSWER: 2
+
+------------------------------------------------------------------------------
+Task 2 - Read
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  Read 13_data.txt, keep only lines starting with "REAL: ", strip that
+  prefix, and join what remains.
+
+Question:
+  Submit the flag you assemble.
+
+Hint:
+  str.startswith("REAL: ") plus slicing or removeprefix().
+
+>> ANSWER: FLAG{file_reading}
+
+==============================================================================

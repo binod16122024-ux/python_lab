@@ -1,0 +1,34 @@
+==============================================================================
+LAB 06 - LOCKED COORDINATES
+Module: Tuples
+==============================================================================
+
+Difficulty : Beginner        Points: 20
+
+NOTE: This file is the INSTRUCTOR ANSWER KEY - it contains the flag.
+      Avoid handing it to players before they solve the lab.
+
+------------------------------------------------------------------------------
+Scenario
+------------------------------------------------------------------------------
+Flag characters are scattered across (position, character) tuples, out of
+order.
+
+------------------------------------------------------------------------------
+Task 1 - Reorder
+------------------------------------------------------------------------------
+Points   : 20
+
+Objective:
+  Sort 'pairs' by position and join the characters in that order to
+  reveal the word.
+
+Question:
+  Submit the word wrapped as FLAG{<word>}.
+
+Hint:
+  sorted(pairs) sorts by the first tuple element by default.
+
+>> ANSWER: FLAG{tuple_lock}
+
+==============================================================================

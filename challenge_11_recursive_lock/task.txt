@@ -1,0 +1,54 @@
+==============================================================================
+LAB 11 - RECURSIVE LOCK
+Module: Functions
+==============================================================================
+
+Difficulty : Beginner        Points: 20
+
+NOTE: This file is the INSTRUCTOR ANSWER KEY - it contains the flag.
+      Avoid handing it to players before they solve the lab.
+
+------------------------------------------------------------------------------
+Scenario
+------------------------------------------------------------------------------
+A recursive function is supposed to decode the flag one character at a
+time (each entry in 'encoded' is a character's code point plus a fixed
+offset), but it has no base case and crashes before it can finish.
+
+------------------------------------------------------------------------------
+Task 1 - Recon
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  Run starter.py exactly as given, without changing anything.
+
+Question:
+  What is the name of the error Python raises?
+
+Hint:
+  The last line of the traceback names the error type.
+
+>> ANSWER: IndexError
+
+------------------------------------------------------------------------------
+Task 2 - Fix
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  reveal() has no base case, so it walks past the end of 'encoded' and
+  crashes with IndexError. Add a base case so it stops cleanly once every
+  character has been decoded.
+
+Question:
+  Submit the flag once reveal(0) prints successfully.
+
+Hint:
+  Stop and return "" once n reaches len(encoded). The decode step
+  (chr(encoded[n] - offset)) is already correct - only the missing base
+  case is broken.
+
+>> ANSWER: FLAG{recursive_lock}
+
+==============================================================================

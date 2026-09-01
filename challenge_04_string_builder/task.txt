@@ -1,0 +1,38 @@
+==============================================================================
+LAB 04 - STRING BUILDER
+Module: Strings
+==============================================================================
+
+Difficulty : Beginner        Points: 20
+
+NOTE: This file is the INSTRUCTOR ANSWER KEY - it contains the flag.
+      Avoid handing it to players before they solve the lab.
+
+------------------------------------------------------------------------------
+Scenario
+------------------------------------------------------------------------------
+The flag is hidden inside a string, woven together character-by-character
+with decoy letters. You can't spot it by eye - you have to pull it apart
+in code.
+
+------------------------------------------------------------------------------
+Task 1 - Extract
+------------------------------------------------------------------------------
+Points   : 20
+
+Objective:
+  'mixed' interleaves the real flag with decoy characters: one real
+  character, then one decoy character, repeating for the whole string.
+  Extract every other character, starting from the first, to recover the
+  flag.
+
+Question:
+  Submit the flag hidden inside 'mixed'.
+
+Hint:
+  A slice with a step of 2 pulls out every other character:
+  mixed[::2] starts at index 0 and skips one character each time.
+
+>> ANSWER: FLAG{hidden_in_plain_sight}
+
+==============================================================================

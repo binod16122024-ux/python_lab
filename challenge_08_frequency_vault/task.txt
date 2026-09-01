@@ -1,0 +1,55 @@
+==============================================================================
+LAB 08 - FREQUENCY VAULT
+Module: Dictionaries
+==============================================================================
+
+Difficulty : Beginner        Points: 20
+
+NOTE: This file is the INSTRUCTOR ANSWER KEY - it contains the flag.
+      Avoid handing it to players before they solve the lab.
+
+------------------------------------------------------------------------------
+Scenario
+------------------------------------------------------------------------------
+The vault only opens for whoever can name the single most common letter in
+a long, noisy string - and how many times it appears. It's too close to
+call by eye; you need to actually tally it.
+
+------------------------------------------------------------------------------
+Task 1 - Recon
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  Run starter.py exactly as given, before either TODO is implemented.
+
+Question:
+  What is the name of the error Python raises?
+
+Hint:
+  top_char starts as None, and counts starts empty - think about what
+  counts[top_char] does with those two facts.
+
+>> ANSWER: KeyError
+
+------------------------------------------------------------------------------
+Task 2 - Count
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  Count how many times each character in text appears, storing the tally
+  in a dict called counts. Then find the character with the highest count
+  and store it in top_char. The top two letters differ by only one
+  occurrence, so guessing isn't reliable - the code has to do the counting.
+
+Question:
+  Submit the flag the script prints once both TODOs are complete.
+
+Hint:
+  counts.get(ch, 0) + 1 is the standard counting pattern. max(counts,
+  key=counts.get) finds the dict key with the highest value.
+
+>> ANSWER: FLAG{freq_f9}
+
+==============================================================================

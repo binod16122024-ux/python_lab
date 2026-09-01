@@ -1,0 +1,49 @@
+==============================================================================
+LAB 07 - SET DIFFERENCE
+Module: Sets
+==============================================================================
+
+Difficulty : Beginner        Points: 20
+
+NOTE: This file is the INSTRUCTOR ANSWER KEY - it contains the flag.
+      Avoid handing it to players before they solve the lab.
+
+------------------------------------------------------------------------------
+Scenario
+------------------------------------------------------------------------------
+The real flag letters are whatever's left after removing a decoy set.
+
+------------------------------------------------------------------------------
+Task 1 - Recon
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  Look at sets A and B in starter.py before computing anything.
+
+Question:
+  How many elements are in A - B?
+
+Hint:
+  A - B removes every element of B from A - count what's left.
+
+>> ANSWER: 5
+
+------------------------------------------------------------------------------
+Task 2 - Compute
+------------------------------------------------------------------------------
+Points   : 10
+
+Objective:
+  Compute A - B, sort the remaining letters alphabetically, and join
+  them into a word.
+
+Question:
+  Submit the flag wrapped as FLAG{set_<word>}.
+
+Hint:
+  A - B removes every element of B from A.
+
+>> ANSWER: FLAG{set_adept}
+
+==============================================================================
